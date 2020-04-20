@@ -1,0 +1,77 @@
+/*
+* @Author: asus
+* @Date:   2020-04-19 18:10:50
+* @Last Modified by:   asus
+* @Last Modified time: 2020-04-20 22:11:43
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+:root {
+	font-size: 15px;
+} 
+
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #555;
+}
+.container {
+	width: 1188px;
+	margin: 0 auto;
+}
+
+.row {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	gap: 10px;
+}
+
+
+
+.col-12 {
+	grid-column: span 12;
+}
+.col-11 {
+	grid-column: span 11;
+}
+.col-10 {
+	grid-column: span 10;
+}
+.col-9 {
+	grid-column: span 9;
+}
+.col-8 {
+	grid-column: span 8;
+}
+.col-7 {
+	grid-column: span 7;
+}
+.col-6 {
+	grid-column: span 6;
+}
+.col-5 {
+	grid-column: span 5;
+}
+.col-4 {
+	grid-column: span 4;
+}
+.col-3 {
+	grid-column: span 3;
+}
+.col-2 {
+	grid-column: span 2;
+}
+.col-1 {
+	grid-column: span 1;
+}
+
+
+
+.con {
+	margin-top: 10px;
+	border: 1px solid #ccc;
+}

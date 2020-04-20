@@ -1,0 +1,15 @@
+/*
+* @Author: asus
+* @Date:   2020-04-20 22:00:45
+* @Last Modified by:   asus
+* @Last Modified time: 2020-04-20 22:01:44
+*/
+h2,h3,h4 {
+	color: #555;
+}
+h2 {
+	font-size: 1rem;
+}
+h3 {
+	font-size: .8rem;
+}

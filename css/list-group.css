@@ -1,0 +1,16 @@
+/*
+* @Author: asus
+* @Date:   2020-04-20 22:05:34
+* @Last Modified by:   asus
+* @Last Modified time: 2020-04-20 22:19:43
+*/
+.list-group li{
+	display: flex;
+	justify-content: space-between;
+	padding: .8rem 0;
+	border-bottom: 1px solid #ccc;
+}
+.list-group li:last-child {
+	border-bottom: none;
+	padding-bottom: none;
+}

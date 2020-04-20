@@ -1,0 +1,17 @@
+/*
+* @Author: asus
+* @Date:   2020-04-20 21:52:40
+* @Last Modified by:   asus
+* @Last Modified time: 2020-04-20 22:12:29
+*/
+.card .header {
+	padding: .5rem 1rem;
+	border-bottom: 1px solid #ddd;
+}
+.card .body {
+	padding: 1rem;
+}
+.card .footer {
+	padding: .5rem 1rem;
+	border-top: 1px solid #ddd;
+}

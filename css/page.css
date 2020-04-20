@@ -1,0 +1,29 @@
+/*
+* @Author: asus
+* @Date:   2020-04-20 22:27:53
+* @Last Modified by:   asus
+* @Last Modified time: 2020-04-20 22:43:15
+*/
+.page {
+	display: flex;
+
+}
+.page a{
+	display: block;
+	padding: .3rem .8rem;
+	border: 1px solid #ccc;
+	margin-left: -1px;
+
+}
+.page .current {
+	background-color: #27ae60;
+	color: #fff;
+}
+.page a:first-child {
+	border-top-left-radius: .2rem;
+	border-bottom-left-radius: .2rem;
+}
+.page a:last-child {
+	border-top-right-radius: .2rem;
+	border-bottom-right-radius: .2rem;
+}

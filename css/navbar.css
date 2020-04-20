@@ -1,0 +1,91 @@
+/*
+* @Author: asus
+* @Date:   2020-04-19 18:14:02
+* @Last Modified by:   asus
+* @Last Modified time: 2020-04-20 16:31:45
+*/
+header {
+	
+	border-bottom: 2px solid #16a085;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .2)
+}
+.navbar {
+	display: flex;
+	padding: 1rem 0;
+	align-items: center;
+}
+.logo {
+	color: #1abc9c;
+	font-weight: 500;
+	font-size: 1.4rem;
+}
+.font-bar {
+	display: none;
+}
+#check_bar {
+	display: none;
+}
+.collapse {
+	display: flex;
+	margin-left: 40px;
+	flex-grow: 1;
+}
+.links {
+	display: flex;
+	margin-right: auto;
+}	
+.links li {
+	margin: 0 10px;
+} 
+.links a {
+	color: #95a5a6;
+	font-weight: 500;
+	
+
+}
+.links a:hover {
+	color: #16a085;
+}
+.action a{
+	border: 1px solid #16a085;
+	border-radius: .3rem;
+	padding: .2rem .4rem;
+}
+.action .login{
+	
+	background-color: #16a085;
+	color: #fff;
+}
+
+
+
+@media only screen and (max-width: 960px) {
+	header .navbar {
+		flex-flow: row wrap;
+	}
+	header .navbar .logo{
+		margin-right: auto;
+	}
+	header .navbar .font-bar {
+		display: block;
+		border: 1px solid #ddd;
+		padding: .5rem  1rem;
+		color: #777;
+		cursor: pointer;
+	}
+	header .navbar input:checked + .collapse {
+		display: block;
+	}
+	header .navbar .collapse {
+		display: none;
+		flex-direction: column;
+		width: 100%;
+	}
+	header .navbar .collapse .links {
+		flex-direction: column;
+		margin-bottom: 1.2rem;
+	}
+	header .navbar .collapse .links li {
+		margin: .5rem 0;
+	}
+}
